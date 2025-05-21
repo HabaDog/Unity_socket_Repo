@@ -1,0 +1,26 @@
+# 添加额外的VS/VSCode配置文件
+.vscode/
+**/.vscode/
+**/.vs/
+*.sln
+*.csproj
+*.userprefs
+*.vsconfig
+
+# 项目特定配置文件
+**/Assembly-CSharp.csproj
+**/ProjectSettings/*.asset
+**/*.vsconfig
+**/*.sln
+**/*.vsconfig
+**/*.json
+
+# 已有规则保留，格式改为使用**前缀
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/[Uu]ser[Ss]ettings/
