@@ -1,0 +1,36 @@
+# 原有规则保留
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# 添加子项目的忽略规则
+SocketClient/[Ll]ibrary/
+SocketServer/[Ll]ibrary/
+SocketClient/[Tt]emp/
+SocketServer/[Tt]emp/
+SocketClient/[Oo]bj/
+SocketServer/[Oo]bj/
+SocketClient/[Bb]uild/
+SocketServer/[Bb]uild/
+SocketClient/[Bb]uilds/
+SocketServer/[Bb]uilds/
+SocketClient/[Ll]ogs/
+SocketServer/[Ll]ogs/
+SocketClient/[Mm]emoryCaptures/
+SocketServer/[Mm]emoryCaptures/
+SocketClient/[Uu]ser[Ss]ettings/
+SocketServer/[Uu]ser[Ss]ettings/
+
+# 或者更简单的方式：忽略任何位置的这些文件夹
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/[Uu]ser[Ss]ettings/
